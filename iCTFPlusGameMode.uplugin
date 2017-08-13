@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Instagib CTF Plus",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Synapse",
+	"CreatedByURL" : "www.unreal-battles.net",
+	"EngineVersion" : "4.15.0",
+	"Description" : "Instagib CTF with spawn improvements",
+	"Category" : "UnrealTournament.GameMode",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "iCTFPlusGameMode",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" : [ "Win32", "Win64", "Linux" ]
+		}
+	]
+}

@@ -1,0 +1,541 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/EHsc
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/I E:\UnrealTournament\Engine\Source
+/I E:\UnrealTournament\UnrealTournament\Plugins\iCTFPlus\Source
+/I E:\UnrealTournament\UnrealTournament\Plugins\iCTFPlus\Source\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\iCTFPlus\Intermediate\Build\Win64\UE4Editor\Inc\iCTFPlus
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Internationalization
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Async
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Containers
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Delegates
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\GenericPlatform
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\HAL
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Logging
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Math
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Misc
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Modules
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Modules\Boilerplate
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\ProfilingDebugging
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Serialization
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Serialization\Csv
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Stats
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Templates
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\UObject
+/I E:\UnrealTournament\Engine\Source\Runtime\Core\Public\Windows
+/I E:\UnrealTournament\Engine\Source\Runtime\Core
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\Blueprint
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\Internationalization
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\Misc
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\Serialization
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\Templates
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject\Public\UObject
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I E:\UnrealTournament\Engine\Source\Runtime\CoreUObject
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\AI
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\AI\Navigation
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Animation
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Curves
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\EdGraph
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Features
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Internationalization
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Net
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\PacketHandlers
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Performance
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Physics
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Slate
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\Tests
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine\Public\VisualLogger
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I E:\UnrealTournament\Engine\Source\Runtime\Engine
+/I E:\UnrealTournament\Engine\Source\Runtime\Json\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Json\Public\Dom
+/I E:\UnrealTournament\Engine\Source\Runtime\Json\Public\Policies
+/I E:\UnrealTournament\Engine\Source\Runtime\Json\Public\Serialization
+/I E:\UnrealTournament\Engine\Source\Runtime\Json
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Animation
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Application
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Brushes
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Fonts
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Input
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Layout
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Logging
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Rendering
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Sound
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Stats
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Styling
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Textures
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Types
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore\Public\Widgets
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateCore
+/I E:\UnrealTournament\Engine\Source\Runtime\InputCore\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\InputCore\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I E:\UnrealTournament\Engine\Source\Runtime\InputCore
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Application
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Commands
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Docking
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Layout
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\MultiBox
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Notifications
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Styling
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Text
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Text\Android
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Framework\Views
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Colors
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Docking
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Images
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Input
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Layout
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Navigation
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Notifications
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Text
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate\Public\Widgets\Views
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate
+/I E:\UnrealTournament\Engine\Source\Runtime\Slate
+/I E:\UnrealTournament\Engine\Source\Runtime\Messaging\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Messaging\Public\Deprecated
+/I E:\UnrealTournament\Engine\Source\Runtime\Messaging\Public\Helpers
+/I E:\UnrealTournament\Engine\Source\Runtime\Messaging
+/I E:\UnrealTournament\Engine\Source\Runtime\RenderCore\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\RenderCore
+/I E:\UnrealTournament\Engine\Source\Runtime\RHI\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\RHI
+/I E:\UnrealTournament\Engine\Source\Runtime\ShaderCore\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\ShaderCore
+/I E:\UnrealTournament\Engine\Source\Runtime\AssetRegistry\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\AssetRegistry
+/I E:\UnrealTournament\Engine\Source\Runtime\EngineMessages\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages
+/I E:\UnrealTournament\Engine\Source\Runtime\EngineMessages
+/I E:\UnrealTournament\Engine\Source\Runtime\EngineSettings\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\EngineSettings\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings
+/I E:\UnrealTournament\Engine\Source\Runtime\EngineSettings
+/I E:\UnrealTournament\Engine\Source\Runtime\SynthBenchmark\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\SynthBenchmark
+/I E:\UnrealTournament\Engine\Source\Runtime\Renderer\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Renderer
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTags\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTags\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTags
+/I E:\UnrealTournament\Engine\Source\Runtime\AIModule\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\AIModule\Classes
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
+/I E:\UnrealTournament\Engine\Source\Runtime\AIModule
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTasks\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTasks\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks
+/I E:\UnrealTournament\Engine\Source\Runtime\GameplayTasks
+/I E:\UnrealTournament\Engine\Source\Runtime\DatabaseSupport\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\DatabaseSupport
+/I E:\UnrealTournament\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler
+/I E:\UnrealTournament\Engine\Source\Runtime\PacketHandlers\PacketHandler
+/I E:\UnrealTournament\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent
+/I E:\UnrealTournament\Engine\Source\Runtime\HardwareSurvey\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\HardwareSurvey
+/I E:\UnrealTournament\Engine\Source\Programs\UnrealLightmass\Public
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\AutoReimport
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Commandlets
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Dialogs
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\DragAndDrop
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Features
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Kismet2
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Layers
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Localization
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Settings
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Tests
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd\Public\Toolkits
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEd
+/I E:\UnrealTournament\Engine\Source\Editor\BspMode\Public
+/I E:\UnrealTournament\Engine\Source\Editor\BspMode
+/I E:\UnrealTournament\Engine\Source\Developer\DirectoryWatcher\Public
+/I E:\UnrealTournament\Engine\Source\Developer\DirectoryWatcher
+/I E:\UnrealTournament\Engine\Source\Editor\Documentation\Public
+/I E:\UnrealTournament\Engine\Source\Editor\Documentation
+/I E:\UnrealTournament\Engine\Source\Runtime\Projects\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Projects\Public\Interfaces
+/I E:\UnrealTournament\Engine\Source\Runtime\Projects
+/I E:\UnrealTournament\Engine\Source\Runtime\SandboxFile\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\SandboxFile
+/I E:\UnrealTournament\Engine\Source\Editor\EditorStyle\Public
+/I E:\UnrealTournament\Engine\Source\Editor\EditorStyle\Public\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\EditorStyle\Public\Interfaces
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
+/I E:\UnrealTournament\Engine\Source\Editor\EditorStyle
+/I E:\UnrealTournament\Engine\Source\Developer\SourceControl\Public
+/I E:\UnrealTournament\Engine\Source\Developer\SourceControl\Public\Tests
+/I E:\UnrealTournament\Engine\Source\Developer\SourceControl
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEdMessages\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEdMessages\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages
+/I E:\UnrealTournament\Engine\Source\Editor\UnrealEdMessages
+/I E:\UnrealTournament\Engine\Source\Developer\GameplayDebugger\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger
+/I E:\UnrealTournament\Engine\Source\Developer\GameplayDebugger
+/I E:\UnrealTournament\Engine\Source\Editor\BlueprintGraph\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\BlueprintGraph\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph
+/I E:\UnrealTournament\Engine\Source\Editor\BlueprintGraph
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\Android
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\Apple
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\HTML5
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\Interfaces
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\Linux
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP\Public\Windows
+/I E:\UnrealTournament\Engine\Source\Runtime\Online\HTTP
+/I E:\UnrealTournament\Engine\Source\Runtime\UnrealAudio\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\UnrealAudio
+/I E:\UnrealTournament\Engine\Source\Developer\FunctionalTesting\Classes
+/I E:\UnrealTournament\Engine\Source\Developer\FunctionalTesting\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting
+/I E:\UnrealTournament\Engine\Source\Developer\FunctionalTesting
+/I E:\UnrealTournament\Engine\Source\Developer\AutomationController\Public
+/I E:\UnrealTournament\Engine\Source\Developer\AutomationController\Public\Interfaces
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController
+/I E:\UnrealTournament\Engine\Source\Developer\AutomationController
+/I E:\UnrealTournament\Engine\Source\Runtime\Internationalization\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Internationalization\Public\Serialization
+/I E:\UnrealTournament\Engine\Source\Runtime\Internationalization
+/I E:\UnrealTournament\Engine\Source\Editor\AudioEditor\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\AudioEditor\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor
+/I E:\UnrealTournament\Engine\Source\Editor\AudioEditor
+/I E:\UnrealTournament\Engine\Source\Editor\LevelEditor\Public
+/I E:\UnrealTournament\Engine\Source\Editor\LevelEditor
+/I E:\UnrealTournament\Engine\Source\Developer\Settings\Public
+/I E:\UnrealTournament\Engine\Source\Developer\Settings
+/I E:\UnrealTournament\Engine\Source\Editor\UserFeedback\Public
+/I E:\UnrealTournament\Engine\Source\Editor\UserFeedback
+/I E:\UnrealTournament\Engine\Source\Editor\IntroTutorials\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials
+/I E:\UnrealTournament\Engine\Source\Editor\IntroTutorials
+/I E:\UnrealTournament\Engine\Source\Runtime\HeadMountedDisplay\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
+/I E:\UnrealTournament\Engine\Source\Runtime\HeadMountedDisplay
+/I E:\UnrealTournament\Engine\Source\Editor\VREditor\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor
+/I E:\UnrealTournament\Engine\Source\Editor\VREditor
+/I E:\UnrealTournament\Engine\Source\Runtime\Landscape\Classes
+/I E:\UnrealTournament\Engine\Source\Runtime\Landscape\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape
+/I E:\UnrealTournament\Engine\Source\Runtime\Landscape
+/I E:\UnrealTournament\Engine\Source\Editor\PropertyEditor\Public
+/I E:\UnrealTournament\Engine\Source\Editor\PropertyEditor
+/I E:\UnrealTournament\Engine\Source\Editor\ActorPickerMode\Public
+/I E:\UnrealTournament\Engine\Source\Editor\ActorPickerMode
+/I E:\UnrealTournament\Engine\Source\Editor\SceneDepthPickerMode\Public
+/I E:\UnrealTournament\Engine\Source\Editor\SceneDepthPickerMode
+/I E:\UnrealTournament\Engine\Source\Editor\DetailCustomizations\Public
+/I E:\UnrealTournament\Engine\Source\Editor\DetailCustomizations\Public\Customizations
+/I E:\UnrealTournament\Engine\Source\Editor\DetailCustomizations
+/I E:\UnrealTournament\Engine\Source\Editor\GraphEditor\Public
+/I E:\UnrealTournament\Engine\Source\Editor\GraphEditor\Public\KismetNodes
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor
+/I E:\UnrealTournament\Engine\Source\Editor\GraphEditor
+/I E:\UnrealTournament\Engine\Source\Editor\ContentBrowser\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser
+/I E:\UnrealTournament\Engine\Source\Editor\ContentBrowser
+/I E:\UnrealTournament\Engine\Source\Runtime\Windows\XAudio2\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Windows\XAudio2
+/I E:\UnrealTournament\Engine\Source\Runtime\AudioMixer\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Windows\AudioMixerXAudio2
+/I E:\UnrealTournament\Engine\Source\Runtime\Windows\UnrealAudioXAudio2
+/I E:\UnrealTournament\Engine\Source\Developer\CollectionManager\Public
+/I E:\UnrealTournament\Engine\Source\Developer\CollectionManager
+/I E:\UnrealTournament\Engine\Source\Editor\AddContentDialog\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog
+/I E:\UnrealTournament\Engine\Source\Editor\AddContentDialog
+/I E:\UnrealTournament\Engine\Source\Developer\MeshUtilities\Public
+/I E:\UnrealTournament\Engine\Source\Developer\MeshUtilities
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet\Public
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet\Public\Nodes
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet\Public\Profiler
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
+/I E:\UnrealTournament\Engine\Source\Editor\Kismet
+/I E:\UnrealTournament\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
+/I E:\UnrealTournament\UnrealTournament\Source
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournament\Public
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournament\Public\Online
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournament\Public\UMG
+/I E:\UnrealTournament\UnrealTournament\Intermediate\Build\Win64\UE4Editor\Inc\UnrealTournament
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournament
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystem\Source
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystem\Source\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystem\Source\Public\Interfaces
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystemUtils\Source
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystemUtils
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public\DebugUtils
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public\Detour
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public\DetourCrowd
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public\DetourTileCache
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh\Public\Recast
+/I E:\UnrealTournament\Engine\Source\Runtime\Navmesh
+/I E:\UnrealTournament\Engine\Source\Runtime\WebBrowser\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\WebBrowser
+/I E:\UnrealTournament\Engine\Source\Runtime\WebBrowser
+/I E:\UnrealTournament\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming
+/I E:\UnrealTournament\Engine\Source\Runtime\JsonUtilities\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
+/I E:\UnrealTournament\Engine\Source\Runtime\JsonUtilities
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public\Animation
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public\Binding
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public\Blueprint
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public\Components
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG\Public\Slate
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG
+/I E:\UnrealTournament\Engine\Source\Runtime\UMG
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieScene\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieScene\Public\Compilation
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieScene\Public\Evaluation
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieScene
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieSceneTracks\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieSceneTracks\Public\Sections
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks
+/I E:\UnrealTournament\Engine\Source\Runtime\MovieSceneTracks
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Party\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Intermediate\Build\Win64\UE4Editor\Inc\Party
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Party
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Lobby\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Intermediate\Build\Win64\UE4Editor\Inc\Lobby
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Lobby
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Qos\Public
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Intermediate\Build\Win64\UE4Editor\Inc\Qos
+/I E:\UnrealTournament\UnrealTournament\Plugins\Online\OnlineFramework\Source\Qos
+/I E:\UnrealTournament\UnrealTournament\Source\BlueprintContext\Public
+/I E:\UnrealTournament\UnrealTournament\Source\BlueprintContext\Public
+/I E:\UnrealTournament\UnrealTournament\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintContext
+/I E:\UnrealTournament\UnrealTournament\Source\BlueprintContext
+/I E:\UnrealTournament\Engine\Source\Runtime\Foliage\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Foliage
+/I E:\UnrealTournament\Engine\Source\Runtime\Foliage
+/I E:\UnrealTournament\Engine\Source\Runtime\PerfCounters\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\PerfCounters
+/I E:\UnrealTournament\Engine\Source\Runtime\PakFile\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\PakFile
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournamentFullScreenMovie\Public
+/I E:\UnrealTournament\UnrealTournament\Source\UnrealTournamentFullScreenMovie
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public\Widgets
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public\Widgets\Colors
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public\Widgets\Testing
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public\Widgets\Views
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework\Public\Widgets\Workflow
+/I E:\UnrealTournament\Engine\Source\Runtime\AppFramework
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateRHIRenderer\Public
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateRHIRenderer\Public\Interfaces
+/I E:\UnrealTournament\Engine\Source\Runtime\SlateRHIRenderer
+/I E:\UnrealTournament\Engine\Source\Runtime\MoviePlayer\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MoviePlayer
+/I E:\UnrealTournament\Engine\Source\Runtime\MoviePlayer
+/I E:\UnrealTournament\Engine\Source\Editor\DistCurveEditor\Public
+/I E:\UnrealTournament\Engine\Source\Developer\DesktopPlatform\Public
+/I E:\UnrealTournament\Engine\Source\Editor\Matinee\Classes
+/I E:\UnrealTournament\Engine\Source\Editor\Matinee\Public
+/I E:\UnrealTournament\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Matinee
+/I E:\UnrealTournament\Engine\Source\Editor\Matinee
+/I E:\UnrealTournament\UnrealTournament\Source\GithubStubs\Public
+/I E:\UnrealTournament\UnrealTournament\Intermediate\Build\Win64\UE4Editor\Inc\GithubStubs
+/I E:\UnrealTournament\UnrealTournament\Source\GithubStubs
+/DUE_EDITOR=1
+/DIS_PROGRAM=0
+/DWITH_DEV_AUTOMATION_TESTS=1
+/DWITH_PERF_AUTOMATION_TESTS=1
+/DUNICODE
+/D_UNICODE
+/D__UNREAL__
+/DIS_MONOLITHIC=0
+/DWITH_ENGINE=1
+/DWITH_UNREAL_DEVELOPER_TOOLS=1
+/DWITH_COREUOBJECT=1
+/DUSE_STATS_WITHOUT_ENGINE=0
+/DWITH_PLUGIN_SUPPORT=0
+/DWITH_PERFCOUNTERS=1
+/DUSE_LOGGING_IN_SHIPPING=0
+/DWITH_LOGGING_TO_MEMORY=0
+/DUSE_CHECKS_IN_SHIPPING=0
+/DUE_BUILD_MINIMAL=0
+/DWITH_EDITOR=1
+/DWITH_SERVER_CODE=1
+/DWITH_CEF3=1
+/DUBT_COMPILED_PLATFORM=Win64
+/DUBT_COMPILED_TARGET=Editor
+/DWIN32=1
+/D_WIN32_WINNT=0x0601
+/DWINVER=0x0601
+/DPLATFORM_WINDOWS=1
+/DNDEBUG=1
+/DUE_BUILD_DEVELOPMENT=1
+/DUSE_NEW_ASYNC_IO=0
+/DORIGINAL_FILE_NAME=\"UE4Editor-iCTFPlus.dll\"
+/DDEPRECATED_FORGAME=DEPRECATED
+/DICTFPLUS_API=DLLEXPORT
+/DUE_ENABLE_ICU=1
+/DWITH_DIRECTXMATH=0
+/DCORE_API=DLLIMPORT
+/DCOREUOBJECT_API=DLLIMPORT
+/DWITH_PHYSX=1
+/DWITH_APEX=1
+/DWITH_RUNTIME_PHYSICS_COOKING
+/DWITH_BOX2D=1
+/DWITH_RECAST=1
+/DENGINE_API=DLLIMPORT
+/DJSON_API=DLLIMPORT
+/DWITH_FREETYPE=1
+/DSLATECORE_API=DLLIMPORT
+/DINPUTCORE_API=DLLIMPORT
+/DSLATE_API=DLLIMPORT
+/DMESSAGING_API=DLLIMPORT
+/DRENDERCORE_API=DLLIMPORT
+/DRHI_API=DLLIMPORT
+/DSHADERCORE_API=DLLIMPORT
+/DASSETREGISTRY_API=DLLIMPORT
+/DENGINEMESSAGES_API=DLLIMPORT
+/DENGINESETTINGS_API=DLLIMPORT
+/DSYNTHBENCHMARK_API=DLLIMPORT
+/DRENDERER_API=
+/DGAMEPLAYTAGS_API=DLLIMPORT
+/DWITH_RECAST=1
+/DWITH_GAMEPLAY_DEBUGGER=1
+/DAIMODULE_API=DLLIMPORT
+/DGAMEPLAYTASKS_API=DLLIMPORT
+/DDATABASESUPPORT_API=DLLIMPORT
+/DPACKETHANDLER_API=DLLIMPORT
+/DRELIABILITYHANDLERCOMPONENT_API=DLLIMPORT
+/DHARDWARESURVEY_API=DLLIMPORT
+/DWITH_PHYSX=1
+/DWITH_APEX=1
+/DWITH_RUNTIME_PHYSICS_COOKING
+/DWITH_RECAST=1
+/DUNREALED_API=DLLIMPORT
+/DBSPMODE_API=DLLIMPORT
+/DDIRECTORYWATCHER_API=DLLIMPORT
+/DDOCUMENTATION_API=DLLIMPORT
+/DPROJECTS_API=DLLIMPORT
+/DSANDBOXFILE_API=DLLIMPORT
+/DEDITORSTYLE_API=DLLIMPORT
+/DSOURCECONTROL_API=DLLIMPORT
+/DUNREALEDMESSAGES_API=DLLIMPORT
+/DGAMEPLAYDEBUGGER_API=DLLIMPORT
+/DBLUEPRINTGRAPH_API=DLLIMPORT
+/DHTTP_PACKAGE=1
+/DHTTP_API=DLLIMPORT
+/DUNREALAUDIO_API=DLLIMPORT
+/DFUNCTIONALTESTING_API=DLLIMPORT
+/DAUTOMATIONCONTROLLER_API=DLLIMPORT
+/DINTERNATIONALIZATION_API=DLLIMPORT
+/DAUDIOEDITOR_API=DLLIMPORT
+/DLEVELEDITOR_API=DLLIMPORT
+/DSETTINGS_API=
+/DUSERFEEDBACK_API=
+/DINTROTUTORIALS_API=
+/DHEADMOUNTEDDISPLAY_API=
+/DVREDITOR_API=
+/DWITH_PHYSX=1
+/DWITH_APEX=1
+/DWITH_RUNTIME_PHYSICS_COOKING
+/DLANDSCAPE_API=DLLIMPORT
+/DPROPERTYEDITOR_API=DLLIMPORT
+/DACTORPICKERMODE_API=DLLIMPORT
+/DSCENEDEPTHPICKERMODE_API=DLLIMPORT
+/DDETAILCUSTOMIZATIONS_API=DLLIMPORT
+/DGRAPHEDITOR_API=DLLIMPORT
+/DCONTENTBROWSER_API=DLLIMPORT
+/DWITH_OGGVORBIS=1
+/DXAUDIO2_API=DLLIMPORT
+/DAUDIOMIXERXAUDIO2_API=DLLIMPORT
+/DUNREALAUDIOXAUDIO2_API=DLLIMPORT
+/DCOLLECTIONMANAGER_API=
+/DADDCONTENTDIALOG_API=
+/DMESHUTILITIES_API=
+/DKISMET_API=DLLIMPORT
+/DNETWORKREPLAYSTREAMING_API=DLLIMPORT
+/DWITH_PROFILE=0
+/DWITH_SOCIAL=0
+/DUNREALTOURNAMENT_API=DLLIMPORT
+/DONLINESUBSYSTEM_PACKAGE=1
+/DONLINESUBSYSTEM_API=DLLIMPORT
+/DONLINESUBSYSTEMUTILS_PACKAGE=1
+/DONLINESUBSYSTEMUTILS_API=DLLIMPORT
+/DNAVMESH_API=DLLIMPORT
+/DWEBBROWSER_API=DLLIMPORT
+/DINMEMORYNETWORKREPLAYSTREAMING_API=DLLIMPORT
+/DJSONUTILITIES_API=DLLIMPORT
+/DUMG_API=DLLIMPORT
+/DMOVIESCENE_API=DLLIMPORT
+/DMOVIESCENETRACKS_API=DLLIMPORT
+/DPARTY_PACKAGE=1
+/DPARTY_API=DLLIMPORT
+/DLOBBY_PACKAGE=1
+/DLOBBY_API=DLLIMPORT
+/DQOS_PACKAGE=1
+/DQOS_API=DLLIMPORT
+/DBLUEPRINTCONTEXT_API=DLLIMPORT
+/DFOLIAGE_API=DLLIMPORT
+/DPERFCOUNTERS_API=DLLIMPORT
+/DPAKFILE_API=DLLIMPORT
+/DUNREALTOURNAMENTFULLSCREENMOVIE_API=DLLIMPORT
+/DAPPFRAMEWORK_API=DLLIMPORT
+/DSLATERHIRENDERER_API=DLLIMPORT
+/DMOVIEPLAYER_API=DLLIMPORT
+/DMATINEE_API=DLLIMPORT
+/DGITHUBSTUBS_API=DLLIMPORT
+"E:\UnrealTournament\UnrealTournament\Plugins\iCTFPlus\Intermediate\Build\Win64\UE4Editor\Development\iCTFPlus\Module.iCTFPlus.cpp"
+/Fo"E:\UnrealTournament\UnrealTournament\Plugins\iCTFPlus\Intermediate\Build\Win64\UE4Editor\Development\iCTFPlus\Module.iCTFPlus.cpp.obj"
+/TP
+/GR-
+/W4
