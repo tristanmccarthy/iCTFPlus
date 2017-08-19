@@ -4,8 +4,30 @@
 #include "Runtime/Engine/Classes/Engine/Engine.h"
 
 AiCTFPlusGameMode::AiCTFPlusGameMode(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
+    : Super(ObjectInitializer)
 {
+    // Uncomment if you want your gamemode to load a custom character blueprint
+    //PlayerPawnObject = FStringAssetReference(TEXT("/Game/RestrictedAssets/Blueprints/DefaultCharacter.DefaultCharacter_C"));
+	    
+    //HUDClass = AMyHUD::StaticClass();
+    //PlayerStateClass = AMyPlayerState::StaticClass();
+    //TeamClass = AMyTeamInfo::StaticClass();
+    //PlayerControllerClass = AMyPlayerController::StaticClass();
+	    
+    GameStateClass = AiCTFPlusGameState::StaticClass();
+	    
+    DisplayName = NSLOCTEXT("iCTFPlusGameMode", "iCTF", "iCTF Plus");
+	    
+    IntermissionDuration   = 30.f;
+    MercyScore             = 0;
+    ForceRespawnTime       = 0.f;
+	    
+    bGameHasTranslocator   = false;
+    bRequireFull           = true;
+    bForceNoBots           = true;
+    bGameHasImpactHammer   = false;
+    bPlayersStartWithArmor = false;
+    bTrackKillAssists      = false;
 }
 
 float AiCTFPlusGameMode::AdjustNearbyPlayerStartScore(const AController* Player, const AController* OtherController, const ACharacter* OtherCharacter, const FVector& StartLoc, const APlayerStart* P)
