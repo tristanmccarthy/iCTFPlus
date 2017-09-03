@@ -1,9 +1,0 @@
-{
-	"Changelist" : 3436913,
-	"CompatibleChangelist" : 3435566,
-	"BuildId" : "c5004cea-71e1-410e-9bf9-9227e8be7cd4",
-	"Modules" : 
-	{
-		"iCTFPlusGameMode" : "UE4Editor-iCTFPlusGameMode.dll"
-	}
-}
