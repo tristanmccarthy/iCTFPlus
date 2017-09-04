@@ -6,7 +6,7 @@
 
 #include "iCTFPlusGameMode.generated.h"
 
-UCLASS(Blueprintable, Abstract, Meta = (ChildCanTick), Config = iCTFPlus)
+UCLASS(Meta = (ChildCanTick), Config = iCTFPlusGameMode)
 class AiCTFPlusGameMode : public AUTCTFGameMode
 {
 	GENERATED_UCLASS_BODY()
