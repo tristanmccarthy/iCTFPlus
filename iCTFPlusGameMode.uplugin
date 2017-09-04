@@ -1,0 +1,23 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "iCTFPlusGameMode",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Synapse",
+	"CreatedByURL" : "https://www.unreal-battles.net/",
+	"EngineVersion" : "4.17.0",
+	"Description" : "iCTF Plus Game Mode",
+	"Category" : "UnrealTournament.GameMode",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "iCTFPlusGameMode",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" : [ "Win32", "Win64", "Linux" ]
+		}
+	]
+}
